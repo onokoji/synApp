@@ -26,6 +26,11 @@
 		92D15FBA1CEDA3AD00EC4AC0 /* tab-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D15FB91CEDA3AD00EC4AC0 /* tab-03.png */; };
 		92D15FBC1CEDA3EA00EC4AC0 /* tab-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D15FBB1CEDA3EA00EC4AC0 /* tab-01.png */; };
 		92D15FBE1CEDA91C00EC4AC0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D15FBD1CEDA91C00EC4AC0 /* ThirdViewController.swift */; };
+		92DDF3D21D0E9BF20021420F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DDF3D11D0E9BF20021420F /* AppDelegate.swift */; };
+		92DDF3D41D0E9BF20021420F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DDF3D31D0E9BF20021420F /* ViewController.swift */; };
+		92DDF3D71D0E9BF20021420F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DDF3D51D0E9BF20021420F /* Main.storyboard */; };
+		92DDF3D91D0E9BF20021420F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DDF3D81D0E9BF20021420F /* Assets.xcassets */; };
+		92DDF3DC1D0E9BF20021420F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DDF3DA1D0E9BF20021420F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,13 @@
 		92D15FB91CEDA3AD00EC4AC0 /* tab-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-03.png"; sourceTree = "<group>"; };
 		92D15FBB1CEDA3EA00EC4AC0 /* tab-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-01.png"; sourceTree = "<group>"; };
 		92D15FBD1CEDA91C00EC4AC0 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		92DDF3CF1D0E9BF20021420F /* syn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DDF3D11D0E9BF20021420F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DDF3D31D0E9BF20021420F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92DDF3D61D0E9BF20021420F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DDF3D81D0E9BF20021420F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DDF3DB1D0E9BF20021420F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DDF3DD1D0E9BF20021420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92DDF3CC1D0E9BF20021420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +123,7 @@
 				926E885C1CED65220010D690 /* tabbarapp */,
 				926E88731CED65220010D690 /* tabbarappTests */,
 				926E887E1CED65220010D690 /* tabbarappUITests */,
+				92DDF3D01D0E9BF20021420F /* syn */,
 				926E885B1CED65220010D690 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +134,7 @@
 				926E885A1CED65220010D690 /* Syngram.app */,
 				926E88701CED65220010D690 /* Syngram.xctest */,
 				926E887B1CED65220010D690 /* Syngram.xctest */,
+				92DDF3CF1D0E9BF20021420F /* syn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +180,19 @@
 				926E88811CED65220010D690 /* Info.plist */,
 			);
 			path = tabbarappUITests;
+			sourceTree = "<group>";
+		};
+		92DDF3D01D0E9BF20021420F /* syn */ = {
+			isa = PBXGroup;
+			children = (
+				92DDF3D11D0E9BF20021420F /* AppDelegate.swift */,
+				92DDF3D31D0E9BF20021420F /* ViewController.swift */,
+				92DDF3D51D0E9BF20021420F /* Main.storyboard */,
+				92DDF3D81D0E9BF20021420F /* Assets.xcassets */,
+				92DDF3DA1D0E9BF20021420F /* LaunchScreen.storyboard */,
+				92DDF3DD1D0E9BF20021420F /* Info.plist */,
+			);
+			path = syn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +251,23 @@
 			productReference = 926E887B1CED65220010D690 /* Syngram.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		92DDF3CE1D0E9BF20021420F /* syn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DDF3E01D0E9BF20021420F /* Build configuration list for PBXNativeTarget "syn" */;
+			buildPhases = (
+				92DDF3CB1D0E9BF20021420F /* Sources */,
+				92DDF3CC1D0E9BF20021420F /* Frameworks */,
+				92DDF3CD1D0E9BF20021420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = syn;
+			productName = syn;
+			productReference = 92DDF3CF1D0E9BF20021420F /* syn.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,6 +290,10 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 926E88591CED65220010D690;
 					};
+					92DDF3CE1D0E9BF20021420F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4RRBPR4A49;
+					};
 				};
 			};
 			buildConfigurationList = 926E88551CED65220010D690 /* Build configuration list for PBXProject "Syngram" */;
@@ -257,6 +312,7 @@
 				926E88591CED65220010D690 /* Syngram */,
 				926E886F1CED65220010D690 /* SyngramTests */,
 				926E887A1CED65220010D690 /* SyngramUITests */,
+				92DDF3CE1D0E9BF20021420F /* syn */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +352,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92DDF3CD1D0E9BF20021420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DDF3DC1D0E9BF20021420F /* LaunchScreen.storyboard in Resources */,
+				92DDF3D91D0E9BF20021420F /* Assets.xcassets in Resources */,
+				92DDF3D71D0E9BF20021420F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -323,6 +389,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				926E88801CED65220010D690 /* tabbarappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DDF3CB1D0E9BF20021420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DDF3D41D0E9BF20021420F /* ViewController.swift in Sources */,
+				92DDF3D21D0E9BF20021420F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +429,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				926E88691CED65220010D690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92DDF3D51D0E9BF20021420F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DDF3D61D0E9BF20021420F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92DDF3DA1D0E9BF20021420F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DDF3DB1D0E9BF20021420F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -454,7 +545,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tabbarapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = onokoji.com.syngram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onokoji;
 				PRODUCT_NAME = Syngram;
 				PROVISIONING_PROFILE = "";
 			};
@@ -468,7 +559,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tabbarapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = onokoji.com.syngram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onokoji;
 				PRODUCT_NAME = Syngram;
 				PROVISIONING_PROFILE = "";
 			};
@@ -520,6 +611,28 @@
 			};
 			name = Release;
 		};
+		92DDF3DE1D0E9BF20021420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = syn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onokoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92DDF3DF1D0E9BF20021420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = syn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onokoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,6 +671,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		92DDF3E01D0E9BF20021420F /* Build configuration list for PBXNativeTarget "syn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DDF3DE1D0E9BF20021420F /* Debug */,
+				92DDF3DF1D0E9BF20021420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
